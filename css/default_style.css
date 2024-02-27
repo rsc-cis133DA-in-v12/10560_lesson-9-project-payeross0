@@ -13,7 +13,13 @@ body {
     background-color: #ddd;
     margin-top: 50px;
 }
-
+table {
+    border-collapse: collapse;
+}
+table, td {
+    border: thin solid black; 
+    padding:5px;
+  }
 /** Header Styles **/
 header {
     background: black url(../images/background.jpg) no-repeat center;
