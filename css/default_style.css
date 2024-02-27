@@ -1,0 +1,95 @@
+/** 
+    Author: 
+    Course: 
+    Lesson: 
+**/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ddd;
+    margin-top: 50px;
+}
+
+/** Header Styles **/
+header {
+    background: black url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+
+/** Navigation Bar Styles **/
+
+nav ul {
+    list-style-type: none;
+    background-color: #2d3437;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #135367;
+    color: #ffffff;
+}
+
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav .right {
+    float: right;
+    background-color: orange;
+    color: black;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/** Main Styles **/
+main {
+    padding: 20px;
+    width: 900px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+/** Footer Styles **/
+footer {
+    background-color: #2d3437;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
